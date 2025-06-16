@@ -1,1 +1,93 @@
-# astro-optimise
+# astro-optimise<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Astro Optimise - Traditional Vedic Astrology Consultations">
+  <title>Astro Optimise</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="logo.png">
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background: #1a1a2e;
+      color: #f5f5dc;
+    }
+    h1, h2, h3 {
+      font-family: 'Tiro Devanagari Sanskrit', serif;
+    }
+  </style>
+</head>
+<body class="text-white">
+
+<!-- Header -->
+<header class="bg-indigo-950 text-gold p-4 flex justify-between items-center shadow-md">
+  <div class="flex items-center gap-2">
+    <img src="logo.png" alt="Astro Optimise" class="h-10">
+    <h1 class="text-xl font-bold text-yellow-400">Astro Optimise</h1>
+  </div>
+  <nav class="space-x-4">
+    <a href="#home" class="hover:text-yellow-300">Home</a>
+    <a href="#about" class="hover:text-yellow-300">About</a>
+    <a href="#services" class="hover:text-yellow-300">Services</a>
+    <a href="#contact" class="hover:text-yellow-300">Contact</a>
+  </nav>
+</header>
+
+<!-- Home -->
+<section id="home" class="text-center py-20 bg-gradient-to-b from-indigo-950 to-black">
+  <h2 class="text-4xl mb-4 text-yellow-400">Welcome to Astro Optimise</h2>
+  <p class="max-w-xl mx-auto text-lg">Your trusted guide for traditional Vedic astrology, personalized consultations, and spiritual empowerment.</p>
+</section>
+
+<!-- About -->
+<section id="about" class="py-20 px-6 bg-indigo-900">
+  <h2 class="text-3xl text-center text-yellow-400 mb-6">About Me</h2>
+  <p class="max-w-3xl mx-auto text-center">Namaste 🙏 I'm Ambrish, founder of Astro Optimise. With deep-rooted faith in the cosmic energies and ancient texts, I help you decode your Kundali with accuracy, empathy, and tradition. Whether it’s love, career, or inner peace — your stars speak, and I interpret.</p>
+</section>
+
+<!-- Services -->
+<section id="services" class="py-20 px-6 bg-indigo-950">
+  <h2 class="text-3xl text-center text-yellow-400 mb-10">Services</h2>
+  <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+    <div class="bg-indigo-800 p-6 rounded-lg shadow-xl border border-yellow-400">
+      <h3 class="text-xl text-yellow-300 mb-2">Personal Kundali Reading</h3>
+      <p>Detailed Vedic chart analysis with remedies & predictions. Personalized audio guidance.</p>
+    </div>
+    <div class="bg-indigo-800 p-6 rounded-lg shadow-xl border border-yellow-400">
+      <h3 class="text-xl text-yellow-300 mb-2">Rudraksha Recommendation</h3>
+      <p>Get the right Rudraksha for your energy and dasha. Includes certificate & soul mantra.</p>
+    </div>
+    <div class="bg-indigo-800 p-6 rounded-lg shadow-xl border border-yellow-400">
+      <h3 class="text-xl text-yellow-300 mb-2">Matchmaking (Kundali Milan)</h3>
+      <p>Accurate compatibility check for marriage with Guna Milan + dosha remedies.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="py-20 px-6 bg-indigo-900">
+  <h2 class="text-3xl text-center text-yellow-400 mb-6">Contact</h2>
+  <div class="max-w-xl mx-auto text-center">
+    <p class="mb-4">Have questions or want to book a session?</p>
+    <a href="https://wa.me/91XXXXXXXXXX" class="bg-green-500 text-white px-4 py-2 rounded-full hover:bg-green-600" target="_blank">📱 WhatsApp Me</a>
+    <br><br>
+    <form action="https://formspree.io/f/your-id" method="POST" class="space-y-4">
+      <input type="text" name="name" placeholder="Your Name" class="w-full p-2 rounded bg-indigo-800 text-white">
+      <input type="email" name="email" placeholder="Your Email" class="w-full p-2 rounded bg-indigo-800 text-white">
+      <textarea name="message" placeholder="Your Message or Question" class="w-full p-2 rounded bg-indigo-800 text-white"></textarea>
+      <button type="submit" class="bg-yellow-500 px-4 py-2 rounded hover:bg-yellow-600">Send</button>
+    </form>
+    <p class="mt-4">
+      <a href="https://instagram.com/astrooptimise" target="_blank" class="text-pink-400 hover:underline">📸 Follow on Instagram</a>
+    </p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-4 bg-black text-gray-400 text-sm">
+  © 2025 Astro Optimise. All rights reserved.
+</footer>
+
+</body>
+</html>
